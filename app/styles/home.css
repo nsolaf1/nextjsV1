@@ -1,0 +1,21 @@
+/* General container styles */
+.container {
+    text-align: center; /* Center all text inside the container */
+  }
+  
+  /* Header and Footer specific styles */
+  .header, .footer {
+    background-color: red; /* Red background */
+    padding: 20px 0; /* Some vertical padding */
+    color: white; /* White text color */
+  }
+  
+  .body {
+    padding: 20px;
+  }
+  
+  .img {
+    width: 100%; /* Make the image responsive */
+    max-width: 600px; /* Optional: constrain the image size */
+    margin: 20px 0; /* Some margin around the image */
+  }
