@@ -1,4 +1,5 @@
 // import styles from ''; // Import the CSS module
+import Header from './components/header'
 import './globals.css'
 
 export default function Home() {
@@ -7,6 +8,8 @@ export default function Home() {
     <div className="header">
       <h1>Header</h1>
     </div>
+    <Header/>
+ 
 
     <div className="body">
       <h1>Beautify</h1>
